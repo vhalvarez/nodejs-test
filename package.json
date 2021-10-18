@@ -1,0 +1,19 @@
+{
+    "name": "nodejs-test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "license": "MIT",
+    "scripts": {
+        "start": "node src/index.js",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --detectOpenHandles"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "jest": "^27.3.0",
+        "supertest": "^6.1.6"
+    }
+}
